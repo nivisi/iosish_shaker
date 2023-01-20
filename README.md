@@ -1,6 +1,8 @@
 # iosish_shaker [![pub version][pub-version-img]][pub-version-url]
 
-🍸 A widget that allows you to shake your widgets, just like the pin on iOS shakes on incorrect input.
+🍸 A widget that allows you to shake your widgets, just like the pin on iOS is shaked on incorrect input.
+
+<img height="550" width="300" src="gif/example.gif" alt="Example" title="Example">
 
 ## Why?
 
@@ -17,12 +19,12 @@ dependencies:
 
 ### Example
 
-1. Create a controller:
+#### Create a controller
 ```dart
 final controller = ShakerController();
 ```
 
-2. Use the shaker widget:
+#### Use the shaker widget
 ```dart
 return Shaker(
   controller: controller,
@@ -30,8 +32,7 @@ return Shaker(
 );
 ```
 
-
-3. Shake, shake, shake! 
+#### Shake, shake, shake! 
 ```dart
 await controller.shake();
 

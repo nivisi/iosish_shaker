@@ -1,3 +1,5 @@
+/// A widget that allows you to shake your widgets,
+/// just like the pin on iOS is shaked on incorrect input.
 library iosish_shaker;
 
 import 'package:flutter/widgets.dart';
