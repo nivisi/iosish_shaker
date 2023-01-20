@@ -1,0 +1,21 @@
+name: iosish_shaker
+description: A widget that allows you to shake your widgets, just like the pin on iOS shakes on incorrect input.
+version: 1.0.0
+homepage: https://github.com/nivisi/iosish_shaker
+repository: https://github.com/nivisi/iosish_shaker
+issue_tracker: https://github.com/nivisi/iosish_shaker/issues
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
